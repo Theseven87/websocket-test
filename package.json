@@ -4,7 +4,7 @@
   "description": "ws测试工具",
   "main": "./out/main/index.js",
   "author": "Theseven87",
-  "homepage": "https://electron-vite.org",
+  "homepage": "https://github.com/Theseven87/websocket-test/",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.vue --fix",

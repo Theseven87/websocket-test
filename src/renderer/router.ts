@@ -5,6 +5,11 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     name: 'Home',
     redirect: () => '/ws'
+  },
+  {
+    path: '/info',
+    name: 'Info',
+    component: () => import('./pages/info/index.vue')
   }
 ]
 const createRouterData = () => {

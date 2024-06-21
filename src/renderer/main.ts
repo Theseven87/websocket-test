@@ -7,8 +7,8 @@ import 'ant-design-vue/dist/reset.css'
 import router from './router.ts'
 import {
   UserOutlined,
-  VideoCameraOutlined
-  // UploadOutlined,
+  VideoCameraOutlined,
+  ExclamationCircleOutlined
   // MenuUnfoldOutlined,
   // MenuFoldOutlined
 } from '@ant-design/icons-vue'
@@ -16,5 +16,6 @@ const app = createApp(App)
 
 app.component('UserOutlined', UserOutlined)
 app.component('VideoCameraOutlined', VideoCameraOutlined)
+app.component('ExclamationCircleOutlined', ExclamationCircleOutlined)
 
 app.use(Antd).use(router).mount('#app')

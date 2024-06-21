@@ -8,4 +8,9 @@
     "id":"mqtt",
     "component":"mqtt",
     "icon":"video-camera-outlined"
+},{
+    "label":"info",
+    "id":"info",
+    "component":"info",
+    "icon":"ExclamationCircleOutlined"
 }]

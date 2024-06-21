@@ -1,6 +1,8 @@
 # websocket-test
 
-An Electron application with Vue and TypeScript
+ws测试工具
+
+使用electron vite vue ts完成开发
 
 ## Recommended IDE Setup
 

@@ -5,7 +5,6 @@ import icon from '../../resources/icon.png?asset'
 import wsServeIpc from './wsIpcs/serverIpc'
 import clientIpc from './wsIpcs/clientIpc'
 
-
 console.log(clientIpc)
 
 function createWindow(): void {
@@ -13,6 +12,8 @@ function createWindow(): void {
   const mainWindow = new BrowserWindow({
     width: 900,
     height: 670,
+    minWidth: 660,
+    minHeight: 510,
     show: false,
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
