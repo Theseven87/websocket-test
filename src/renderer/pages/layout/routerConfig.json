@@ -1,0 +1,11 @@
+[{
+    "label":"ws",
+    "id":"ws",
+    "component":"ws",
+    "icon":"UserOutlined"
+},{
+    "label":"mqtt",
+    "id":"mqtt",
+    "component":"mqtt",
+    "icon":"video-camera-outlined"
+}]
